@@ -1,0 +1,37 @@
+[
+    
+    {
+        "Name": "abel-core",
+        "Deps": [
+            "async-trait",
+            "backtrace",
+            "bstr",
+            "clru",
+            "dashmap",
+            "hyper",
+            "hyper",
+            "hyper-tls",
+            "libc",
+            "log",
+            "mlua",
+            "nonzero_ext",
+            "parking_lot",
+            "paste",
+            "pretty_env_logger",
+            "rand",
+            "regex",
+            "serde",
+            "serde_json",
+            "serde_qs",
+            "smallstr",
+            "strum",
+            "tempfile",
+            "test-case",
+            "thiserror",
+            "tokio",
+            "tokio-util",
+            "uuid"
+        ]
+    
+    }
+]

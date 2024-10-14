@@ -1,0 +1,180 @@
+[
+    {
+        "Name": "diny",
+        "Deps": [
+            "diny_core",
+            "diny_core",
+            "diny_derive",
+            "diny_derive",
+            "diny_test",
+            "diny_test",
+            "futures-util"
+        ]
+    },
+    {
+        "Name": "fluvio",
+        "Deps": [
+            "async-channel",
+            "async-mutex",
+            "async-rwlock",
+            "async-std",
+            "async-trait",
+            "base64",
+            "dirs",
+            "event-listener",
+            "fluvio-future",
+            "fluvio-protocol",
+            "fluvio-socket",
+            "fluvio-spu-schema",
+            "fluvio-types",
+            "serde",
+            "serde_json",
+            "thiserror",
+            "tokio",
+            "toml",
+            "tracing",
+            "tracing-futures"
+        ]
+    },
+    {
+        "Name": "fluvio-controlplane-metadata",
+        "Deps": [
+            "async-trait",
+            "fluvio-future",
+            "fluvio-future",
+            "fluvio-protocol",
+            "fluvio-stream-model",
+            "fluvio-types",
+            "flv-util",
+            "k8-obj-app",
+            "k8-obj-core",
+            "k8-obj-metadata",
+            "log",
+            "serde",
+            "tracing"
+        ]
+    },
+    {
+        "Name": "fluvio-dataplane-protocol",
+        "Deps": [
+            "bytes",
+            "content_inspector",
+            "crc32c",
+            "fluvio-future",
+            "fluvio-protocol",
+            "fluvio-socket",
+            "flv-util",
+            "futures-util",
+            "log"
+        ]
+    },
+    {
+        "Name": "fluvio-socket",
+        "Deps": [
+            "async-channel",
+            "async-mutex",
+            "async-net",
+            "async-trait",
+            "bytes",
+            "chashmap",
+            "event-listener",
+            "fluvio-future",
+            "fluvio-future",
+            "fluvio-protocol",
+            "flv-util",
+            "futures-util",
+            "log",
+            "pin-utils",
+            "tokio",
+            "tokio-util",
+            "tracing"
+        ]
+    },
+    {
+        "Name": "fluvio-spu-schema",
+        "Deps": [
+            "bytes",
+            "fluvio-protocol",
+            "log",
+            "serde",
+            "tracing"
+        ]
+    },
+    {
+        "Name": "frui",
+        "Deps": [
+            "frui_widgets",
+            "rand"
+        ]
+    },
+    {
+        "Name": "glsp",
+        "Deps": [
+            "glsp-proc-macros",
+            "glsp-stdlib"
+        ]
+    },
+    {
+        "Name": "glsp-stdlib",
+        "Deps": [
+            "glsp",
+            "glsp-proc-macros",
+            "smallvec"
+        ]
+    },
+    {
+        "Name": "kf-protocol",
+        "Deps": [
+            "flv-util",
+            "kf-protocol-core",
+            "kf-protocol-derive",
+            "kf-protocol-message",
+            "kf-protocol-transport",
+            "log"
+        ]
+    },
+    {
+        "Name": "kf-protocol-transport",
+        "Deps": [
+            "bytes",
+            "flv-util",
+            "futures_codec",
+            "kf-protocol",
+            "log"
+        ]
+    },
+    {
+        "Name": "litcheck",
+        "Deps": [
+            "clap",
+            "console",
+            "env_logger",
+            "filecheck",
+            "indicatif",
+            "lit",
+            "litcheck",
+            "miette",
+            "parking_lot",
+            "rayon",
+            "regex",
+            "target-lexicon",
+            "thiserror"
+        ]
+    },
+    {
+        "Name": "xous-kernel",
+        "Deps": [
+            "bitflags",
+            "crossbeam-channel",
+            "hex",
+            "lazy_static",
+            "rand",
+            "rand_chacha",
+            "riscv",
+            "stats_alloc",
+            "utralib",
+            "xous-kernel",
+            "xous-kernel"
+        ]
+    }
+]

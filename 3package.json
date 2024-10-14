@@ -1,0 +1,49 @@
+[
+    {
+        "Name": "a653rs",
+        "Deps": [
+            "a653rs_macros",
+            "a653rs_macros",
+            "serde",
+            "strum"
+        ]
+    },
+    {
+        "Name": "a653rs-linux-core",
+        "Deps": [
+            "a653rs",
+            "bincode",
+            "byteorder",
+            "bytesize",
+            "enum_primitive",
+            "itertools",
+            "log",
+            "memfd",
+            "memmap2",
+            "nix",
+            "polling",
+            "procfs",
+            "ptr_meta",
+            "rand",
+            "serde",
+            "thiserror",
+            "walkdir"
+        ]
+    },
+    {
+        "Name": "a653rs_macros", 
+        "Deps": [
+            "bytesize", 
+        "convert_case", 
+        "darling", 
+        "humantime", 
+        "itertools", 
+        "proc-macro2", 
+        "quote", 
+        "static_assertions", 
+        "strum", 
+        "syn"
+    ]
+    }
+
+]

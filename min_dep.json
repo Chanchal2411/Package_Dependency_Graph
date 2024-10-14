@@ -1,0 +1,245 @@
+[
+
+    {
+        "Name": "a653rs",
+        "Deps": [
+            "a653rs_macros",
+            "a653rs_macros",
+            "serde",
+            "strum"
+        ]
+    },
+    {
+        "Name": "a653rs-linux-core",
+        "Deps": [
+            "a653rs",
+            "bincode",
+            "byteorder",
+            "bytesize",
+            "enum_primitive",
+            "itertools",
+            "log",
+            "memfd",
+            "memmap2",
+            "nix",
+            "polling",
+            "procfs",
+            "ptr_meta",
+            "rand",
+            "serde",
+            "thiserror",
+            "walkdir"
+        ]
+    },
+    {
+        "Name": "a653rs_macros",
+        "Deps": [
+            "bytesize",
+            "convert_case",
+            "darling",
+            "humantime",
+            "itertools",
+            "proc-macro2",
+            "quote",
+            "static_assertions",
+            "strum",
+            "syn"
+        ]
+    },
+    {
+        "Name": "aa-name",
+        "Deps": [
+            "thiserror"
+        ]
+    },
+    {
+        "Name": "aabb-quadtree",
+        "Deps": [
+            "fnv"
+        ]
+    },
+    {
+        "Name": "aabel-multihash-rs",
+        "Deps": [
+            "rand",
+            "siphasher"
+        ]
+    },
+    {
+        "Name": "aarch64-cpu",
+        "Deps": [
+            "tock-registers"
+        ]
+    },
+    {
+        "Name": "aargvark",
+        "Deps": [
+            "comfy-table",
+            "console",
+            "convert_case",
+            "http",
+            "serde",
+            "serde_json",
+            "serde_yaml",
+            "url"
+        ]
+    },
+    {
+        "Name": "abcperf",
+        "Deps": [
+            "async-channel",
+            "async-trait",
+            "base64",
+            "bincode",
+            "bytes",
+            "clap",
+            "derivative",
+            "futures-util",
+            "gethostname",
+            "procfs",
+            "rand",
+            "rand_chacha",
+            "rand_pcg",
+            "rcgen",
+            "reqwest",
+            "rstest",
+            "rustls",
+            "serde",
+            "serde-bytes-repr",
+            "serde_json",
+            "serde_yaml",
+            "shared-ids",
+            "thiserror",
+            "tokio",
+            "tokio-stream",
+            "tokio-timerfd",
+            "tracing",
+            "tracing-subscriber",
+            "uuid"
+        ]
+    },
+    {
+        "Name": "abcperf-client-proxy",
+        "Deps": [
+            "abcperf",
+            "async-trait",
+            "blake2",
+            "derivative",
+            "ed25519-dalek",
+            "rand",
+            "serde",
+            "shared-ids",
+            "tokio",
+            "tracing"
+        ]
+    },
+    {
+        "Name": "abcperf-generic-client",
+        "Deps": [
+            "abcperf",
+            "async-channel",
+            "async-trait",
+            "base64",
+            "bincode",
+            "bytes",
+            "criterion",
+            "derivative",
+            "rand",
+            "reqwest",
+            "rustls",
+            "serde",
+            "serde-bytes-repr",
+            "serde_json",
+            "shared-ids",
+            "tokio",
+            "tracing",
+            "warp"
+        ]
+    },
+    {
+        "Name": "abcperf-noop",
+        "Deps": [
+            "abcperf",
+            "abcperf-client-proxy",
+            "abcperf-generic-client",
+            "async-trait",
+            "reqwest",
+            "serde",
+            "serde_bytes",
+            "shared-ids",
+            "tokio",
+            "tracing"
+        ]
+    },
+    {
+        "Name": "abcrypt",
+        "Deps": [
+            "blake2",
+            "chacha20poly1305",
+            "clap",
+            "dialoguer",
+            "rand"
+        ]
+    },
+    {
+        "Name": "ABC_Game_Engine",
+        "Deps": [
+            "fxhash",
+            "gilrs",
+            "glam",
+            "rand",
+            "rodio",
+            "tracing"
+        ]
+    },
+    {
+        "Name": "abe",
+        "Deps": [
+            "arrayvec",
+            "hex",
+            "serde",
+            "thiserror"
+        ]
+    },
+    {
+        "Name": "abel-core",
+        "Deps": [
+            "async-trait",
+            "backtrace",
+            "bstr",
+            "clru",
+            "dashmap",
+            "hyper",
+            "hyper",
+            "hyper-tls",
+            "libc",
+            "log",
+            "mlua",
+            "nonzero_ext",
+            "parking_lot",
+            "paste",
+            "pretty_env_logger",
+            "rand",
+            "regex",
+            "serde",
+            "serde_json",
+            "serde_qs",
+            "smallstr",
+            "strum",
+            "tempfile",
+            "test-case",
+            "thiserror",
+            "tokio",
+            "tokio-util",
+            "uuid"
+        ]
+    },
+    {
+        "Name": "abe_policy",
+        "Deps": [
+            "serde",
+            "serde_json",
+            "thiserror"
+        ]
+    }
+]
